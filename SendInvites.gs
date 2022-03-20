@@ -1,6 +1,4 @@
 const INTERVIEW_DURATION = 30; // in minutes
-const INTERVIEWER_EMAIL = "ankit.gupta@agrilinks.in";
-
 const INTERVIEW_INVITE_STATUS_COL = "Interview Invite Status"
 
 function validate(candidateEmail, jobPosition, candidateSlot) {
@@ -45,7 +43,7 @@ function prepareCalendarPayload(candidateEmail, jobPosition, candidateSlot) {
   const resource = {
     start: { dateTime: start },
     end: { dateTime: end },
-    attendees: [{ email: INTERVIEWER_EMAIL }, { email: candidateEmail }],
+    attendees: [{ email: candidateEmail }],
     conferenceData: {
       createRequest: {
         requestId: Utilities.getUuid(),
