@@ -10,6 +10,6 @@ A free ATS tool built using Google Sheets and App Script
 
 # Steps to use
 - Create a Google Form with the required fields to accept submissions / applications
-- Create the linked Google Sheet to accept the responses in
+- Create the linked Google Sheet ([example](https://docs.google.com/spreadsheets/d/1S-Iv2kXkLYJzjIOZHTxUoGANPChTMJFQqC7wd8kFiTg/edit#gid=534179237)) to accept the responses in
 - Create a new Project in App Scripts and add the files from this project
 - Tweak the email templates & sender emails according to your needs
